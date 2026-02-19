@@ -84,7 +84,7 @@ body {
 .about {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
 
 .about-text {
@@ -109,20 +109,22 @@ body {
 .about-text h2 {
   text-align: center;
   margin-bottom: 30px;
-  font-size: 45px;
+  font-size: 46px;
 }
 
 .about-text h4 {
   text-align: center;
   margin-bottom: 20px;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .about-text p {
-  font-size: 17px;
+  font-size: 20px;
   display: block;
-  
+  width: 550px;
+  /* text-align: justify; */
+  margin-right: 12px;
 }
 
 
