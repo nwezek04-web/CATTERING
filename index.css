@@ -140,10 +140,10 @@ body {
   display: flex;
   gap: 30px;
   align-items: center;
-  padding: 50px;
+  padding: 30px;
   margin-bottom: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: px;
 }
 
 .menu-text,
@@ -161,14 +161,14 @@ body {
   color: #777;
   margin-bottom: 5px;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .menu-img img {
   width: 90%;
   border-radius: 5px;
   font-size: 8px;
-  margin-left: 30px;
+  margin-left: 5px;
 }
 
 
