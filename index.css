@@ -72,11 +72,10 @@ body {
 }
 
 .center {
-  
-  margin-bottom: 110px;
-  font-size: 39px;
-  margin-left: 180px;
-  align-items: left;
+
+  font-size: 32px;
+  margin-left: 100px;
+  align-items: center;
 
 }
 
@@ -96,15 +95,16 @@ body {
 
 
 .about-img img {
-  width: 90%;
+  width: 98%;
   border-radius: 5px;
-  font-size: 8px;
-  margin-left: 30px;
+  padding-left: 40px;
+  
 }
 
 .about-img,
 .about-text {
   flex: 1;
+
 }
 
 .about-text h2 {
@@ -122,12 +122,12 @@ body {
 }
 
 .about-text p {
-  font-size: 19px;
+  font-size: 21px;
   display: block;
-  width: 90%;
-  max-width: 1100px;
+  width: 98%;
+  max-width: 1200px;
   justify-items: center;
-  margin-left: 18px;
+
 }
 
 
@@ -137,18 +137,22 @@ body {
 
 
 .section-menu h2 {
-  margin-left: 30px;
-  margin-top: 80px;
+  margin-left: px;
+  margin-top: px;
+  margin-bottom: px;
+  letter-spacing: 3px;
 }
 
 .menu-content {
   display: flex;
   gap: 30px;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: px;
+  justify-content: left;
+  padding-left: 80px;
+  
+
 }
 
 .menu-text,
@@ -157,39 +161,48 @@ body {
 }
 
 .menu-text h4 {
+  color: #777;
   margin-bottom: 10px;
-  margin-top: 10px;
-  font-size: 23px;
+  margin-top: 40px;
+  font-size: 21px;
+  letter-spacing: 5px;
 }
 
 .menu-text p {
   color: #777;
-  margin-bottom: 5px;
+  margin-bottom: 19px;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
+  width: 90%;
+  
 }
 
 .menu-img img {
-  width: 90%;
+  width: 98%;
+  height: 95%;
   border-radius: 5px;
   font-size: 8px;
-  margin-left: 5px;
+  margin-top: 70px;
+
 }
+
 
 
 .contact h2 {
   margin-bottom: 25px;
-  font-size:45px;
-  margin-left: 35px;
+  font-size:43px;
+  padding-left: 80px;
+    
 }
 
 .contact p {
   padding: 8px;
-  font-size: 15.8px;
-  margin-right: 50px;
-  width: 93%;
-  margin-left: 32px;
+  font-size: 0.98rem;
+  margin-right: 40px;
   letter-spacing: 1.0;
+ 
+   
+
 }
 
 .address {
@@ -201,8 +214,7 @@ body {
 .contact-form {
   margin-top: 25px;
   max-width: 1100px;
-  margin-left: 38px;
-  font-size: 32px;
+
 }
 
 .contact-form input {
@@ -249,6 +261,7 @@ footer {
   .about,
   .menu-content {
     flex-direction: column;
+    padding: 0  20px;
   }
 
   .section {
