@@ -146,11 +146,12 @@ body {
 .about-text h1 {
   text-align: center;
   margin: 10px;
-  font-size: 34px;
-  font-weight: 90px;
+  font-size: 36px;
+  font-weight: 400;
   letter-spacing: 5px;
   line-height: 1.5;
   margin-bottom: 40px;
+  font-family: "playfair Display", serif;
   
   
 }
@@ -276,7 +277,7 @@ body {
 
 .contact h1 {
     display: block;
-    font-size: 34px;
+    font-size: 36px;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -284,6 +285,8 @@ body {
     letter-spacing: 5px;
     margin-bottom: 40px;
     padding-left: 62px;
+    font-weight: 400;
+    font-family: "playfair Display", serif;
 }
     
 
@@ -419,6 +422,7 @@ footer {
     padding-right: 0%;
     margin-right: auto;
   }
+  
 
   .about-text p {
     margin-right: auto;
