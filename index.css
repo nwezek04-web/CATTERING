@@ -48,6 +48,24 @@ body {
    text-decoration: none;
 }
 
+.menu-icon {
+  font-size: 22px;
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+
+.nav-links.show {
+  display: inline-block;
+  float: right;
+  background-image: url(tablesetting.jpg);
+  height: 80px;
+  position: relative;
+  margin-top: 5px;
+
+}
+
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -456,6 +474,18 @@ footer {
 
   .contact-form button {
     width: 50%;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+
+  .nav-links.show {
+    margin-left: 50px;
+    position: relative;
+    left: 18px;
+    
   }
 
   .footer p {
