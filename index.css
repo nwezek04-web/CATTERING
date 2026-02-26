@@ -48,22 +48,20 @@ body {
    text-decoration: none;
 }
 
-.menu-icon {
-  font-size: 22px;
+.icon {
+  font-size: 20px;
   cursor: pointer;
   float: right;
   display: none;
+  
 }
 
-.nav-links.show {
-  display: inline-block;
-  float: right;
-  background-image: url(tablesetting.jpg);
-  height: 80px;
-  position: relative;
-  margin-top: 5px;
+ #closeIcon {
+  display: none;
+ 
+ }
 
-}
+ 
 
 
 .nav-links {
@@ -360,6 +358,7 @@ body {
 
 .nav-links li:hover {
     background: #33333357;
+  
 }
 
 
@@ -391,6 +390,7 @@ footer {
 
   .nav-links{
     display: none;
+    
   }
 
   .logo:hover {
@@ -476,17 +476,45 @@ footer {
     width: 50%;
   }
 
-  .menu-icon {
+  .icon {
     display: block;
-  }
-
-
-  .nav-links.show {
-    margin-left: 50px;
-    position: relative;
-    left: 18px;
+   
     
   }
+
+   #closeIcon {
+    font-size: 30px;
+    
+    
+  }
+
+
+  .nav-links {
+    position: fixed;
+    display: none;
+    float: right;
+    height: 98px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #ffffffea;
+    font-size: 20px;
+    
+    
+  }
+
+  .nav-links a {
+    font-size: 18px;
+    width: 100%;  
+    margin-left: 20px;
+  }
+   
+
+   .nav-links:hover {
+    width: 100%;
+    margin-left: 0%;
+
+   }
+   
 
   .footer p {
     width: 100%;
